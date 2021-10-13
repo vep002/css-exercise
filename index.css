@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto auto;
+    min-height: 100vh
+}
+
+.header {
+    background-color: grey;
+    width: 100%;
+    grid-column: span 2
+}
+
+nav {
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    padding: 1em;
+    background-color:black;
+    color:white;
+    width: 190px;
+    height: 70px;
+    border-radius: 100px / 50px;
+}
+
+.rock {
+    background-color: orange;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: 190px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.coast {
+    color: white;
+    top: 60px;
+    position: absolute;
+    height:40px;
+    width:190px;
+    border-radius: 100% / 50%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main {
+    background-color: white;
+    border: 20px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px
+}
+
+.container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto auto;
+}
+
+.description {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+h2#h2 {
+    color: orange;
+}
